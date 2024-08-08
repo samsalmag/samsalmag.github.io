@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 5px 20px;
+}
+
+.social-item {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.social-item p  {
+    margin-left: 7px;
+}
+
+.social-item a {
+    width: 30px;            /* Should be same as img width*/
+    height: 30px;           /* Should be same as img height*/
+}
+
+.social-item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 25%;
+    border: 2px solid white;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px 20px
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Only apply hover effect on devices with a mouse */
+@media (hover: hover) and (pointer: fine) {
+    .project-item:hover {
+        transform: scale(1.05);
+    }
+}
+
+.project-header {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: stretch;
+}
+
+.project-header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 25%;
+    align-self: center;
+}
+
+.project-header h2 {
+    font-size: 1.2rem;
+    align-self: center;
+    text-align: left;
+    margin: 0;
+}
+
+.project-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 6px;
+    margin-top: 7px;
+}
+
+.project-labels p {
+    background-color: aqua;
+    color: black;
+    width: max-content;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 6px;
+    margin-top: 10px;
+}
+
+.project-tags p {
+    background-color: #121212;
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.project-desc {
+    font-size: 0.9rem;
+    color: #bbbbbb;
+    padding-left: 1px;
+    margin: 15px 0 15px 0;
+    text-align: left;
+}
+
+.view-buttons {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    margin-top: auto;       /* Sticks element to bottom of container */
+    gap: 10px 10px;
+}
+
+.view-buttons button {
+    height: 40px;
+    background-color: #ffffff;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.view-buttons button:hover {
+    background-color: #aaaaaa;
+}
+
+.view-buttons button:active {
+    outline: 2px solid black;
+}
+
+/* PROJECT LABELS */
+.project-labels #in-dev {
+    background-color: rgb(3, 102, 250);
+}
+
+.project-labels #unmaintained {
+    background-color: rgb(199, 36, 36);
+}
+
+.project-labels #archived {
+    background-color: rgb(205, 224, 116);
+}
+
+.project-labels #personal {
+    background-color: rgb(32, 145, 32);
+}
+
+.project-labels #coursework {
+    background-color: rgb(197, 111, 223);
+}
+
+.project-labels #java {
+    background-color: rgb(245, 118, 86);
+}
+
+/* PROJECT LOGO COLORS */
+
+#lejonstaden img {
+    background-color: rgb(124, 124, 124);
+} 
+
+#golden-recipes img {
+    background-color: rgb(238, 205, 16);
+}
