@@ -1,3 +1,4 @@
 email.png: https://www.flaticon.com/free-icon/apple_831357?term=email&page=1&position=22&origin=search&related_id=831357
 github.png: https://www.flaticon.com/free-icon/github_3291695?term=github&page=1&position=1&origin=search&related_id=3291695
+golden-recipes.png: https://pixabay.com/vectors/chefs-hat-chef-clothing-uniform-23436/
 linkedin.png: https://www.flaticon.com/free-icon/linkedin_3536505?term=linkedin&page=1&position=1&origin=search&related_id=3536505
