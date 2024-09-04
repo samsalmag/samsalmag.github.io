@@ -61,7 +61,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 100px;
-    gap: 20px 30px
+    gap: 30px 30px
 }
 
 .project-item {
